@@ -1,0 +1,22 @@
+[
+  {
+    "action": "read-yard",
+    "desk": "crew-a-yard",
+    "fact": {
+      "unit": "attach-2",
+      "at_yard": true,
+      "ready_for_handoff": false
+    },
+    "unavailable_first": true
+  },
+  {
+    "action": "read-cert",
+    "desk": "repair-desk",
+    "fact": {
+      "unit": "attach-2",
+      "repair": "done",
+      "released": true
+    },
+    "unavailable_first": false
+  }
+]

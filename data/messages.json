@@ -1,0 +1,55 @@
+[
+  {
+    "sequence": 1,
+    "received_at": 18,
+    "source": "crew-a",
+    "facts": {
+      "unit": "m-4",
+      "returned": true
+    }
+  },
+  {
+    "sequence": 2,
+    "received_at": 21,
+    "source": "maint",
+    "facts": {
+      "unit": "attach-2",
+      "isolated": true,
+      "reason": "needs_check"
+    }
+  },
+  {
+    "sequence": 3,
+    "received_at": 34,
+    "source": "crew-b",
+    "facts": {
+      "job": "north-clear",
+      "proposes": {
+        "m": "m-8",
+        "a": "attach-3"
+      }
+    }
+  },
+  {
+    "sequence": 4,
+    "received_at": 42,
+    "source": "crew-c",
+    "facts": {
+      "job": "south-trim",
+      "confirmed": {
+        "m": "m-8",
+        "a": "attach-3"
+      }
+    }
+  },
+  {
+    "sequence": 5,
+    "received_at": 49,
+    "source": "maint",
+    "facts": {
+      "unit": "attach-2",
+      "completed": true,
+      "located_at": "crew-a-yard"
+    }
+  }
+]

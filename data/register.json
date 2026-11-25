@@ -1,0 +1,62 @@
+{
+  "units": {
+    "m-4": {
+      "kind": "carrier",
+      "ports": [
+        "x"
+      ],
+      "holder": "crew-a"
+    },
+    "m-8": {
+      "kind": "carrier",
+      "ports": [
+        "y"
+      ],
+      "holder": "stock"
+    },
+    "attach-2": {
+      "port": "x",
+      "holder": "crew-a"
+    },
+    "attach-3": {
+      "port": "y",
+      "holder": "stock"
+    }
+  },
+  "qualifications": {
+    "person-4": [
+      "carrier-x"
+    ],
+    "person-8": [
+      "carrier-y"
+    ]
+  },
+  "future": [
+    {
+      "job": "north-clear",
+      "team": "crew-b",
+      "needs": [
+        "carrier",
+        "attach"
+      ],
+      "next_slot": [
+        50,
+        70
+      ],
+      "operator": "person-4"
+    },
+    {
+      "job": "south-trim",
+      "team": "crew-c",
+      "needs": [
+        "carrier",
+        "attach"
+      ],
+      "next_slot": [
+        55,
+        80
+      ],
+      "operator": "person-8"
+    }
+  ]
+}
